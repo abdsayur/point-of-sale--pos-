@@ -20,11 +20,8 @@ A modern, online sales system tailored for restaurants, cafes, and various comme
 
 The cashier selects items from various categories and products, applies optional discounts (percentage or fixed amount), adjusts quantities, then checks out and prints an invoice.
 
-**▶️ Demo Video (Download Link):**  
-[📥 Takeaway.mov](screenshots/take-away.mov)
-<video width="600" controls>
-  <source src="screenshots/take-away.mov" type="video/mp4">
-</video>
+**▶️ Demo Video:**  
+<video src="screenshots/take-away.mp4" controls width="600"></video>
 
 ---
 
@@ -35,8 +32,8 @@ The cashier selects items from various categories and products, applies optional
 - Orders remain open and tables unavailable until **Check Out** is completed and the bill is paid.
 - Orders cannot be printed until the cashier submits the order.
 
-**▶️ Demo Video (Download Link):**  
-[📥 Tables.mov](screenshots/tables.mov)
+**▶️ Demo Video:**  
+<video src="screenshots/tables.mp4" controls width="600"></video>
 
 ---
 
@@ -46,8 +43,8 @@ The cashier selects items from various categories and products, applies optional
 - Records the order.
 - Prints an invoice for the delivery person.
 
-**▶️ Demo Video (Download Link):**  
-[📥 Delivery.mov](screenshots/delivery.mov)
+**▶️ Demo Video:**  
+<video src="screenshots/delivery.mp4" controls width="600"></video>
 
 ---
 
@@ -55,8 +52,8 @@ The cashier selects items from various categories and products, applies optional
 
 At closing, the system calculates total daily income from all orders, deducts costs, and securely locks new order entries until the next day — ensuring a clean, organized accounting cycle.
 
-**▶️ Demo Video (Download Link):**  
-[📥 End-of-Day.mov](screenshots/end-of-day.mov)
+**▶️ Demo Video:**  
+<video src="screenshots/end-of-day.mp4" controls width="600"></video>
 
 ---
 
@@ -100,7 +97,7 @@ All screenshots and demo videos are available inside the `/screenshots` folder:
 - **Images**
   - `login.png`
 - **Videos**
-  - `take-away.mov`
-  - `tables.mov`
-  - `delivery.mov`
-  - `end-of-day.mov`
+  - `take-away.mp4`
+  - `tables.mp4`
+  - `delivery.mp4`
+  - `end-of-day.mp4`
