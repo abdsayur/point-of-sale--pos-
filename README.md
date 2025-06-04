@@ -6,7 +6,7 @@ A modern, online sales system tailored for restaurants, cafes, and various comme
 
 ## 📌 Key Features
 
-- 🌐 **Online Access**: Accessible from any device with internet connection.
+- 🌐 **Online Access**: Accessible from any device with an internet connection.
 - 📱 **Integrated Menu System**: Directly linked to your existing menu program.
 - ✨ **Simple & Intuitive Interface**: Clean UI and straightforward user experience.
 - 🧾 **Supports Full Transaction Types**: From cashiering to delivery and table reservations.
@@ -20,8 +20,8 @@ A modern, online sales system tailored for restaurants, cafes, and various comme
 
 The cashier selects items from various categories and products, applies optional discounts (percentage or fixed amount), adjusts quantities, then checks out and prints an invoice.
 
-**▶️ Demo Video:**  
-[![Takeaway Video](https://img.shields.io/badge/Watch-Takeaway%20.mov-blue)](screenshots/take-away.mov)
+**▶️ Demo Video (Download Link):**  
+[📥 Takeaway.mov](screenshots/take-away.mov)
 
 ---
 
@@ -29,11 +29,11 @@ The cashier selects items from various categories and products, applies optional
 
 - Cashier selects a reserved or available table (managed by the admin).
 - Records customer orders per table.
-- Order remains open and the table unavailable until **Check Out** is completed and the bill is paid.
+- Orders remain open and tables unavailable until **Check Out** is completed and the bill is paid.
 - Orders cannot be printed until the cashier submits the order.
 
-**▶️ Demo Video:**  
-[![Tables Video](https://img.shields.io/badge/Watch-Tables%20.mov-blue)](screenshots/tables.mov)
+**▶️ Demo Video (Download Link):**  
+[📥 Tables.mov](screenshots/tables.mov)
 
 ---
 
@@ -43,8 +43,8 @@ The cashier selects items from various categories and products, applies optional
 - Records the order.
 - Prints an invoice for the delivery person.
 
-**▶️ Demo Video:**  
-[![Delivery Video](https://img.shields.io/badge/Watch-Delivery%20.mov-blue)](screenshots/delivery.mov)
+**▶️ Demo Video (Download Link):**  
+[📥 Delivery.mov](screenshots/delivery.mov)
 
 ---
 
@@ -52,8 +52,8 @@ The cashier selects items from various categories and products, applies optional
 
 At closing, the system calculates total daily income from all orders, deducts costs, and securely locks new order entries until the next day — ensuring a clean, organized accounting cycle.
 
-**▶️ Demo Video:**  
-[![End of Day Video](https://img.shields.io/badge/Watch-End%20of%20Day%20.mov-blue)](screenshots/end-of-day.mov)
+**▶️ Demo Video (Download Link):**  
+[📥 End-of-Day.mov](screenshots/end-of-day.mov)
 
 ---
 
@@ -68,16 +68,16 @@ A simple, secure login page for employees to access the POS system according to 
 
 ## ⚙️ Technologies Used
 
-- 🐘 **Laravel** — PHP Framework for backend and RESTful APIs
-- 🖥️ **Laravel Nova** — For powerful admin panel & resource management
-- 📜 **Pure JavaScript** — Lightweight, fast front-end interaction
-- 🗄️ **MySQL** — Reliable relational database
+- 🐘 **Laravel** — PHP Framework for backend and RESTful APIs.
+- 🖥️ **Laravel Nova** — For powerful admin panel & resource management.
+- 📜 **Pure JavaScript** — Lightweight, fast front-end interaction.
+- 🗄️ **MySQL** — Reliable relational database.
 
 ---
 
 ## 🌐 Live Demo
 
-Explore the connected online menu: [qr.algorexe.com](https://qr.algorexe.com)
+Check out the connected online menu: [qr.algorexe.com](https://qr.algorexe.com)
 
 ---
 
@@ -85,14 +85,14 @@ Explore the connected online menu: [qr.algorexe.com](https://qr.algorexe.com)
 
 For more information or business inquiries, feel free to reach out via:
 
-- [LinkedIn](https://www.linkedin.com/in/yourusername)
-- [Email](mailto:yourmail@example.com)
+- [LinkedIn](https://www.linkedin.com/in/abdulrahman-derbass-aaa3021b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [Email](mailto:abdulrahmanderbass@gmail.com)
 
 ---
 
-## 📂 Screenshots & Media
+## 📂 Media Assets
 
-Stored inside the `/screenshots` folder:
+All screenshots and demo videos are available inside the `/screenshots` folder:
 
 - **Images**
   - `login.png`
@@ -101,17 +101,3 @@ Stored inside the `/screenshots` folder:
   - `tables.mov`
   - `delivery.mov`
   - `end-of-day.mov`
-
----
-
-## 🚀 How to Install
-
-```bash
-git clone https://github.com/yourusername/pos-system.git
-cd pos-system
-composer install
-npm install && npm run dev
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
