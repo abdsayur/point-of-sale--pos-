@@ -22,6 +22,9 @@ The cashier selects items from various categories and products, applies optional
 
 **▶️ Demo Video (Download Link):**  
 [📥 Takeaway.mov](screenshots/take-away.mov)
+<video width="600" controls>
+  <source src="screenshots/take-away.mov" type="video/mp4">
+</video>
 
 ---
 
