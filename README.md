@@ -1,65 +1,117 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# 📊 POS System — Restaurant & Cafe Point of Sale
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A modern, online sales system tailored for restaurants, cafes, and various commercial establishments. Designed with simplicity and flexibility in mind, this system offers a full range of transaction management features for dine-in, takeaway, and delivery services — all accessible online from any connected device.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📌 Key Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- 🌐 **Online Access**: Accessible from any device with internet connection.
+- 📱 **Integrated Menu System**: Directly linked to your existing menu program.
+- ✨ **Simple & Intuitive Interface**: Clean UI and straightforward user experience.
+- 🧾 **Supports Full Transaction Types**: From cashiering to delivery and table reservations.
+- 📊 **Dashboard Admin Panel**: Manage products, orders, tables, employees, and their permissions from a central dashboard.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🍽️ Transaction Modes
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 🛍️ Takeaway
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The cashier selects items from various categories and products, applies optional discounts (percentage or fixed amount), adjusts quantities, then checks out and prints an invoice.
 
-## Laravel Sponsors
+**▶️ Demo Video:**  
+[![Takeaway Video](https://img.shields.io/badge/Watch-Takeaway%20.mov-blue)](screenshots/take-away.mov)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+### 🍽️ Table Service
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- Cashier selects a reserved or available table (managed by the admin).
+- Records customer orders per table.
+- Order remains open and the table unavailable until **Check Out** is completed and the bill is paid.
+- Orders cannot be printed until the cashier submits the order.
 
-## Contributing
+**▶️ Demo Video:**  
+[![Tables Video](https://img.shields.io/badge/Watch-Tables%20.mov-blue)](screenshots/tables.mov)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+### 🚚 Delivery
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Employee captures customer details to ensure correct delivery.
+- Records the order.
+- Prints an invoice for the delivery person.
 
-## Security Vulnerabilities
+**▶️ Demo Video:**  
+[![Delivery Video](https://img.shields.io/badge/Watch-Delivery%20.mov-blue)](screenshots/delivery.mov)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 📅 End of Day Process
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# point-of-sale--pos-
+At closing, the system calculates total daily income from all orders, deducts costs, and securely locks new order entries until the next day — ensuring a clean, organized accounting cycle.
+
+**▶️ Demo Video:**  
+[![End of Day Video](https://img.shields.io/badge/Watch-End%20of%20Day%20.mov-blue)](screenshots/end-of-day.mov)
+
+---
+
+## 🔐 Employee Login
+
+A simple, secure login page for employees to access the POS system according to their roles and permissions.
+
+**🖼️ Screenshot:**  
+![Login Screen](screenshots/login.png)
+
+---
+
+## ⚙️ Technologies Used
+
+- 🐘 **Laravel** — PHP Framework for backend and RESTful APIs
+- 🖥️ **Laravel Nova** — For powerful admin panel & resource management
+- 📜 **Pure JavaScript** — Lightweight, fast front-end interaction
+- 🗄️ **MySQL** — Reliable relational database
+
+---
+
+## 🌐 Live Demo
+
+Explore the connected online menu: [qr.algorexe.com](https://qr.algorexe.com)
+
+---
+
+## 📞 Contact
+
+For more information or business inquiries, feel free to reach out via:
+
+- [LinkedIn](https://www.linkedin.com/in/yourusername)
+- [Email](mailto:yourmail@example.com)
+
+---
+
+## 📂 Screenshots & Media
+
+Stored inside the `/screenshots` folder:
+
+- **Images**
+  - `login.png`
+- **Videos**
+  - `take-away.mov`
+  - `tables.mov`
+  - `delivery.mov`
+  - `end-of-day.mov`
+
+---
+
+## 🚀 How to Install
+
+```bash
+git clone https://github.com/yourusername/pos-system.git
+cd pos-system
+composer install
+npm install && npm run dev
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
