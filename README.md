@@ -21,7 +21,11 @@ A modern, online sales system tailored for restaurants, cafes, and various comme
 The cashier selects items from various categories and products, applies optional discounts (percentage or fixed amount), adjusts quantities, then checks out and prints an invoice.
 
 **▶️ Demo Video:**  
-<video src="screenshots/take-away.mp4" controls width="600"></video>
+
+
+https://github.com/user-attachments/assets/55e49945-1e8b-4efc-8ad9-3e08e4aa1742
+
+
 
 ---
 
@@ -33,9 +37,13 @@ The cashier selects items from various categories and products, applies optional
 - Orders cannot be printed until the cashier submits the order.
 
 **▶️ Demo Video:**  
-<video src="screenshots/tables.mp4" controls width="600"></video>
 
----
+
+https://github.com/user-attachments/assets/7df8b886-36db-400c-8c24-0c92c424b8e6
+
+
+
+
 
 ### 🚚 Delivery
 
@@ -44,7 +52,11 @@ The cashier selects items from various categories and products, applies optional
 - Prints an invoice for the delivery person.
 
 **▶️ Demo Video:**  
-<video src="screenshots/delivery.mp4" controls width="600"></video>
+
+
+https://github.com/user-attachments/assets/231c2f36-28f8-495c-9a49-4b4d3c25b152
+
+
 
 ---
 
@@ -53,7 +65,11 @@ The cashier selects items from various categories and products, applies optional
 At closing, the system calculates total daily income from all orders, deducts costs, and securely locks new order entries until the next day — ensuring a clean, organized accounting cycle.
 
 **▶️ Demo Video:**  
-<video src="screenshots/end-of-day.mp4" controls width="600"></video>
+
+
+https://github.com/user-attachments/assets/3cb870ee-5b9e-4c67-9e8e-993b353dc50c
+
+
 
 ---
 
@@ -62,7 +78,8 @@ At closing, the system calculates total daily income from all orders, deducts co
 A simple, secure login page for employees to access the POS system according to their roles and permissions.
 
 **🖼️ Screenshot:**  
-![Login Screen](screenshots/login.png)
+![login](https://github.com/user-attachments/assets/80afda67-3ea4-47d3-b326-d6cfa06e97dc)
+
 
 ---
 
@@ -78,6 +95,8 @@ A simple, secure login page for employees to access the POS system according to 
 ## 🌐 Live Demo
 
 Check out the connected online menu: [qr.algorexe.com](https://qr.algorexe.com)
+
+![website](https://github.com/user-attachments/assets/f6596aeb-429c-4dfe-954f-d70f0fda9db9)
 
 ---
 
